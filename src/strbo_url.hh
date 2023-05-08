@@ -24,6 +24,7 @@
 
 #include "strbo_url_schemes.hh"
 
+#include <cinttypes>
 #include <exception>
 
 namespace StrBoUrl
