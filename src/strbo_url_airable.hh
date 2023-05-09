@@ -63,7 +63,7 @@ class TraceLocator: public ::StrBoUrl::Schema::TraceLocator
 };
 
 /*!
- * Representation of a Airable simple location key.
+ * Representation of an Airable simple location key.
  */
 class LocationKeySimple: public ::StrBoUrl::Location
 {
@@ -131,7 +131,7 @@ class LocationKeySimple: public ::StrBoUrl::Location
 };
 
 /*!
- * Representation of a Airable reference location key.
+ * Representation of an Airable reference location key.
  */
 class LocationKeyReference: public ::StrBoUrl::Location
 {
@@ -222,7 +222,7 @@ class LocationKeyReference: public ::StrBoUrl::Location
 };
 
 /*!
- * Representation of a Airable location trace.
+ * Representation of an Airable location trace.
  */
 class LocationTrace: public ::StrBoUrl::Location
 {
