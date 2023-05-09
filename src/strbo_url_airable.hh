@@ -30,6 +30,28 @@ namespace Airable
 {
 
 /*!
+ * The \c https scheme in Airable context.
+ */
+class ResourceLocatorHTTPS: public ::StrBoUrl::Schema::ResourceLocatorSimple
+{
+  public:
+    explicit ResourceLocatorHTTPS():
+        StrBoUrl::Schema::ResourceLocatorSimple("https")
+    {}
+};
+
+/*!
+ * The \c http scheme in Airable context.
+ */
+class ResourceLocatorHTTP: public ::StrBoUrl::Schema::ResourceLocatorSimple
+{
+  public:
+    explicit ResourceLocatorHTTP():
+        StrBoUrl::Schema::ResourceLocatorSimple("http")
+    {}
+};
+
+/*!
  * The \c strbo-airable scheme.
  */
 class ResourceLocatorSimple: public ::StrBoUrl::Schema::ResourceLocatorSimple
